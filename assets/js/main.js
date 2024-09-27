@@ -815,7 +815,7 @@
                 dots: true,
                 focusOnSelect: false,
                 speed: 1000,
-                autoplay: false,
+                autoplay: true,
                 asNavFor: '.slider-content-activation-one',
                 prevArrow: '<button class="slide-arrow prev-arrow"><i class="fal fa-long-arrow-left"></i></button>',
                 nextArrow: '<button class="slide-arrow next-arrow"><i class="fal fa-long-arrow-right"></i></button>',
