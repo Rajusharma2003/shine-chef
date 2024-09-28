@@ -75,10 +75,10 @@
                                    
                                 </li>
                                 <li class="menu-item-has-children">
-                                    <a href="shopuytfytgyvy8">Shop</a>
+                                    <a href="#shops">Shop</a>
                                 </li>
-                                <li><a href="about-usuytfytgyvy8">About</a></li>
-                                <li><a href="contactuytfytgyvy8">Contact</a></li>
+                                <li><a href="#about">About</a></li>
+                                <li><a href="#contact">Contact</a></li>
                             </ul>
                         </nav>
                         <!-- End Mainmanu Nav -->
@@ -417,7 +417,40 @@
             </div>
         </div>
         <!-- End Categorie Area  -->
-
+        <div id="about" class="axil-about-area about-style-1 axil-section-gap "></div>
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-xl-4 col-lg-6">
+                        <div class="about-thumbnail">
+                            <div class="thumbnail">
+                                <img src="assets/images/about/about-01.png" alt="About Us">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-8 col-lg-6">
+                        <div class="about-content content-right">
+                            <span class="title-highlighter highlighter-primary2"> <i class="far fa-shopping-basket"></i>About Store</span>
+                            <h3 class="title">Online shopping includes both buying things online.</h3>
+                            <span class="text-heading">Salesforce B2C Commerce can help you create unified, intelligent digital commerce
+                                experiences — both online and in the store.</span>
+                            <div class="row">
+                                <div class="col-xl-6">
+                                    <p>Empower your sales teams with industry tailored
+                                        solutions that support manufacturers as they go
+                                        digital, and adapt to changing markets & customers
+                                        faster by creating new business.</p>
+                                </div>
+                                <div class="col-xl-6">
+                                    <p class="mb--0">Salesforce B2B Commerce offers buyers the
+                                        seamless, self-service experience of online
+                                        shopping with all the B2B</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <!-- Poster Countdown Area  -->
         <div class="axil-poster-countdown">
             <div class="container">
@@ -453,7 +486,7 @@
 
         <!-- work done -->
         <!-- Start Expolre Product Area  -->
-        <div class="axil-product-area bg-color-white axil-section-gap">
+        <div id="shops" class="axil-product-area bg-color-white axil-section-gap">
             <div class="container">
                 <div class="section-title-wrapper">
                     <span class="title-highlighter highlighter-primary"> <i class="far fa-shopping-basket"></i> Our Products</span>
@@ -1330,7 +1363,82 @@
             </div>
         </div>
     </div>
-
+<!-- Start Contact Area  -->
+<div id="contact" class="axil-contact-page-area axil-section-gap">
+    <div class="container">
+        <div class="axil-contact-page">
+            <div class="row row--30">
+                <div class="col-lg-8">
+                    <div class="contact-form">
+                        <h3 class="title mb--10">We would love to hear from you.</h3>
+                        <p>If you’ve got great products your making or looking to work with us then drop us a line.</p>
+                        <form id="contact-form" method="POST" action="https://new.axilthemes.com/demo/template/etrade/mail.php" class="axil-contact-form">
+                            <div class="row row--10">
+                                <div class="col-lg-4">
+                                    <div class="form-group">
+                                        <label for="contact-name">Name <span>*</span></label>
+                                        <input type="text" name="contact-name" id="contact-name">
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="form-group">
+                                        <label for="contact-phone">Phone <span>*</span></label>
+                                        <input type="text" name="contact-phone" id="contact-phone">
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="form-group">
+                                        <label for="contact-email">E-mail <span>*</span></label>
+                                        <input type="email" name="contact-email" id="contact-email">
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <label for="contact-message">Your Message</label>
+                                        <textarea name="contact-message" id="contact-message" cols="1" rows="2"></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-group mb--0">
+                                        <button name="submit" type="submit" id="submit" class="axil-btn btn-bg-primary">Send Message</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="contact-location mb--40">
+                        <h4 class="title mb--20">Our Store</h4>
+                        <span class="address mb--20">8212 E. Glen Creek Street Orchard Park, NY 14127, United States of America</span>
+                        <span class="phone">Phone: +123 456 7890</span>
+                        <span class="email">Email: Hello@etrade.com</span>
+                    </div>
+                    <div class="contact-career mb--40">
+                        <h4 class="title mb--20">Careers</h4>
+                        <p>Instead of buying six things, one that you really like.</p>
+                    </div>
+                    <div class="opening-hour">
+                        <h4 class="title mb--20">Opening Hours:</h4>
+                        <p>Monday to Saturday: 9am - 10pm
+                            <br> Sundays: 10am - 6pm
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Start Google Map Area  -->
+        <div class="axil-google-map-wrap axil-section-gap pb--0">
+            <div class="mapouter">
+                <div class="gmap_canvas">
+                    <iframe width="1080" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=melbourne&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed"></iframe>
+                </div>
+            </div>
+        </div>
+        <!-- End Google Map Area  -->
+    </div>
+</div>
+<!-- End Contact Area  -->
     <!-- Start Footer Area  -->
     <footer class="axil-footer-area footer-style-2">
         <!-- Start Footer Top Area  -->
