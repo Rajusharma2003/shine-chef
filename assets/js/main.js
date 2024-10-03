@@ -573,6 +573,7 @@
             $('.testimonial-slick-activation').slick({
                 infinite: true,
                 slidesToShow: 3,
+                autoplay: true,
                 slidesToScroll: 1,
                 arrows: true,
                 dots: false,

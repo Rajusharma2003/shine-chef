@@ -6672,12 +6672,12 @@ button.axil-btn.btn-size-md i {
 .header-style-3 {
   background-color: #f9f3f0;
 }
-.header-brand .logo{
+.header-brand .logo {
   position: absolute;
-  top: -40px;
-  height: 100px;
-  width: 150px;
-  z-index: 9999999!important;
+  top: -60px;
+  height: auto;
+  width: 180px;
+  z-index: 9999999 !important;
 }
 @media only screen and (max-width: 768px) {
   .header-brand .logo{
